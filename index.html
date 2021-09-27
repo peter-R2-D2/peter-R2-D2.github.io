@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Pedro Farias </title>
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+
+  <header class="header">
+    <a href="#" class="header__logo">
+      < Pedro Farias />
+    </a>
+
+    <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
+
+    <nav class="nav" id="nav-menu">
+      <div class="nav__content bd-grid">
+
+        <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
+
+        <div class="nav__perfil">
+          <div class="nav__img">
+            <img src="img/perfil-pedro.png" alt="perfil usuario">
+          </div>
+
+          <div>
+            <a href="#" class="nav__name">Pedro Farias</a>
+            <span class="nav__profesion">Desarrollador Web</span>
+          </div>
+        </div>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link active">Hola</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
+            <li class="nav__item"><a href="#portfolio" class="nav__link">Portafolio</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="nav__social">
+          <a href="#" class="nav__social-icon">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+          <a href="https://github.com/peter-R2-D2" class="nav__social-icon">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+          <a href="mailto:pedro.arturo.farias@outlook.com" class="nav__social-icon">
+            <ion-icon name="mail-outline"></ion-icon>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <section class="home bd-grid" id="home">
+      <div class="home__data">
+        <h1 class="home__title">Hola, soy <span class="home__title-color">Pedro</span></h1>
+        <h3 class="home__subtitle">Desarrollador Frontend</h3>
+        <p class="home__description">Apasionado por el diseño y el desarrollo web para entregar trabajos de calidad.</p>
+        <a href="doc/Pedro A. Farias CV.pdf" download="Pedro-Farias-CV" class="button">Descargar CV <ion-icon
+            name="download-outline"></ion-icon></a>
+      </div>
+
+      <div class="home__social">
+        <a href="#" class="home__social-icons" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a href="https://github.com/peter-R2-D2" class="home__social-icons" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="mailto:pedro.arturo.farias@outlook.com" class="home__social-icons">
+          <ion-icon name="mail-outline"></ion-icon>
+        </a>
+      </div>
+
+      <div class="home__img">
+        <img src="img/perfil-pedro.png" alt="Imagen de perfil">
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Habilidades</h2>
+
+      <div class="skills__container container grid">
+        <div>
+          <!-- Front end-->
+          <div class="skills__content skills__open">
+            <div class="skills__header">
+              <ion-icon name="code-slash-outline" class="skills__icons"></ion-icon>
+
+              <div>
+                <h1 class="skills__title">Desarrollador Frontend</h1>
+                <span class="skills__subtitle">+2 años</span>
+              </div>
+
+              <ion-icon name="chevron-down-outline" class="skills__arrow"></ion-icon>
+            </div>
+            <div class="skills__list bd-grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">HTML</h3>
+                  <span class="skills__number">90%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__porcentage skills__html"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">CSS</h3>
+                  <span class="skills__number">90%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__porcentage skills__css"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">JavaScript</h3>
+                  <span class="skills__number">80%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__porcentage skills__js"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">React</h3>
+                  <span class="skills__number">85%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__porcentage skills__react"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend-->
+          <div class="skills__content skills__close">
+            <div class="skills__header">
+              <ion-icon name=""></ion-icon>
+              <ion-icon name="server-outline" class="skills__icons"></ion-icon>
+
+              <div>
+                <h1 class="skills__title">Desarrollador Backend</h1>
+                <span class="skills__subtitle">-1 año</span>
+              </div>
+
+              <ion-icon name="chevron-down-outline" class="skills__arrow"></ion-icon>
+            </div>
+            <div class="skills__list bd-grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">MySQL</h3>
+                  <span class="skills__number">55%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__porcentage skills__mysql"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Node Js</h3>
+                  <span class="skills__number">60%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__porcentage skills__node"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Firebase</h3>
+                  <span class="skills__number">60%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__porcentage skills__firebase"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">PHP</h3>
+                  <span class="skills__number">40%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__porcentage skills__php"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div>
+          <!-- Desing-->
+          <div class="skills__content skills__close">
+            <div class="skills__header">
+              <ion-icon name="code-slash-outline" class="skills__icons"></ion-icon>
+
+              <div>
+                <h1 class="skills__title">Diseñador</h1>
+                <span class="skills__subtitle">+1 año</span>
+              </div>
+
+              <ion-icon name="chevron-down-outline" class="skills__arrow"></ion-icon>
+            </div>
+            <div class="skills__list bd-grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Figma</h3>
+                  <span class="skills__number">80%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__porcentage skills__figma"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Photoshop</h3>
+                  <span class="skills__number">40%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__porcentage skills__photoshop"></span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section-title">Portafolio</h2>
+
+      <div class="portfolio__container container swiper">
+        <div class="swiper-wrapper">
+          <!-- Portafolio 1-->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="img/portafolio1.png" alt="portafolio" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">CRUD React Hooks</h3>
+              <p class="portfolio__description">WebApp programada con React utilizando los hooks</p>
+              <a href="" class="button portfolio__button">
+                Demo <ion-icon name="arrow-forward-outline" class="button__icon"></ion-icon>
+              </a>
+            </div>
+          </div>
+
+          <!-- Portafolio 2-->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="img/portafolio2.png" alt="portafolio" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Lista de tareas Js</h3>
+              <p class="portfolio__description">Aplicacion hecha con JavaScript y utilizando local storage</p>
+              <a href="" class="button portfolio__button">
+                Demo <ion-icon name="arrow-forward-outline" class="button__icon"></ion-icon>
+              </a>
+            </div>
+          </div>
+
+          <!-- Portafolio 3-->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="img/portafolio3.png" alt="portafolio" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Diseño app Abremex</h3>
+              <p class="portfolio__description">Diseño de la aplicacion para la empresa abremex</p>
+              <a href="" class="button portfolio__button">
+                Demo <ion-icon name="arrow-forward-outline" class="button__icon"></ion-icon>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Arrows -->
+        <div class="swiper-button-next">
+          <ion-icon name="chevron-forward-outline" class="swiper-portfolio-icon"></ion-icon>
+        </div>
+        <div class="swiper-button-prev">
+          <ion-icon name="chevron-back-outline" class="swiper-portfolio-icon"></ion-icon>
+        </div>
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <h2 class="section-title">Contáctame</h2>
+
+      <div class="contact__container container grid">
+        <div>
+          <!-- Contact 1 -->
+          <div class="contact__information">
+            <ion-icon name="logo-linkedin" class="contact__icon"></ion-icon>
+
+            <div>
+              <a href="#" class="contact__anchor">
+                <h3 class="contact__title">Linkedin</h3>
+                <span class="contact__subtitle">Vamos <ion-icon name="arrow-forward-outline"></ion-icon></span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact 2 -->
+          <div class="contact__information">
+            <ion-icon name="mail-outline" class="contact__icon"></ion-icon>
+            <div>
+              <a href="#" class="contact__anchor">
+                <h3 class="contact__title">Correo Electronico</h3>
+                <span class="conctat__subtitle">Vamos <ion-icon name="arrow-forward-outline"></ion-icon></span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__bg">
+      <div class="footer__container container grid">
+        <div>
+          <h1 class="footer__title">Pedro</h1>
+          <span class="footer__subtitle">Desarrollador frontend</span>
+        </div>
+
+        <ul class="footer__links">
+          <li>
+            <a href="#skills" class="footer__link">Habilidades</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="footer__link">Portafolio</a>
+          </li>
+          <li>
+            <a href="#contact" class="footer__link">Contacto</a>
+          </li>
+        </ul>
+
+        <p class="footer__copy">&#169; Pedro Farias. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Swiper JS -->
+  <script src="js/swiper-bundle.min.js"></script>
+</body>
+
+</html>
