@@ -52,3 +52,16 @@ let swiper = new Swiper('.portfolio__container', {
     clickable: true,
   },
 })
+
+// Show scroll up
+const scrollTop = document.getElementById('scroll-up')
+
+window.onscroll = function(){ scrollUp() };
+
+function scrollUp() {
+  if(document.body.scrollTop > 560 || document.documentElement.scrollTop > 560){
+    scrollTop.classList.add('show-scroll');
+  } else {
+    scrollTop.classList.remove('show-scroll');
+  }
+}

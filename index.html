@@ -46,13 +46,13 @@
         </div>
 
         <div class="nav__social">
-          <a href="#" class="nav__social-icon">
+          <a href="#" class="nav__social-icon" target="_black">
             <ion-icon name="logo-linkedin"></ion-icon>
           </a>
-          <a href="https://github.com/peter-R2-D2" class="nav__social-icon">
+          <a href="https://github.com/peter-R2-D2" class="nav__social-icon" target="_black">
             <ion-icon name="logo-github"></ion-icon>
           </a>
-          <a href="mailto:pedro.arturo.farias@outlook.com" class="nav__social-icon">
+          <a href="mailto:pedro.arturo.farias@outlook.com" class="nav__social-icon" >
             <ion-icon name="mail-outline"></ion-icon>
           </a>
         </div>
@@ -60,12 +60,11 @@
     </nav>
   </header>
 
-  <main class="l-main">
+  <main class="main">
     <section class="home bd-grid" id="home">
       <div class="home__data">
-        <h1 class="home__title">Hola, soy <span class="home__title-color">Pedro</span></h1>
-        <h3 class="home__subtitle">Desarrollador Frontend</h3>
-        <p class="home__description">Apasionado por el diseño y el desarrollo web para entregar trabajos de calidad.</p>
+        <h1 class="home__title">Hola,<br>soy <span class="home__title-color">Pedro</span><br> Web Desarrollador</h1>
+
         <a href="doc/Pedro A. Farias CV.pdf" download="Pedro-Farias-CV" class="button">Descargar CV <ion-icon
             name="download-outline"></ion-icon></a>
       </div>
@@ -90,7 +89,7 @@
     <section class="skills section" id="skills">
       <h2 class="section-title">Habilidades</h2>
 
-      <div class="skills__container container grid">
+      <div class="skills__container  bd-grid">
         <div>
           <!-- Front end-->
           <div class="skills__content skills__open">
@@ -246,7 +245,7 @@
     <section class="portfolio section" id="portfolio">
       <h2 class="section-title">Portafolio</h2>
 
-      <div class="portfolio__container container swiper">
+      <div class="portfolio__container bd-grid swiper">
         <div class="swiper-wrapper">
           <!-- Portafolio 1-->
           <div class="portfolio__content grid swiper-slide">
@@ -305,7 +304,7 @@
     <section class="contact section" id="contact">
       <h2 class="section-title">Contáctame</h2>
 
-      <div class="contact__container container grid">
+      <div class="contact__container bd-grid">
         <div>
           <!-- Contact 1 -->
           <div class="contact__information">
@@ -337,7 +336,7 @@
 
   <footer class="footer">
     <div class="footer__bg">
-      <div class="footer__container container grid">
+      <div class="footer__container bd-grid">
         <div>
           <h1 class="footer__title">Pedro</h1>
           <span class="footer__subtitle">Desarrollador frontend</span>
@@ -359,6 +358,10 @@
       </div>
     </div>
   </footer>
+
+  <a href="#home" class="scrollup" id="scroll-up">
+    <ion-icon name="arrow-up-outline" class="scrollup__icon"></ion-icon>
+  </a>
 
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
