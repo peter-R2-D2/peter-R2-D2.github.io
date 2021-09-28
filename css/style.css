@@ -307,6 +307,7 @@ img{
 /* Skill */
 .skills__container{
   row-gap: 0;
+  column-gap: 1.5rem;
 }
 .skills__header{
   display: flex;
