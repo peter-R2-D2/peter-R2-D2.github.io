@@ -1,6 +1,6 @@
 export const links = [
-  { name: "Inicio", link: "#home" },
-  { name: "Acerca de", link: "#about" },
-  { name: "Experiencia", link: "#experience" },
-  { name: "Proyectos", link: "#proyects" },
+  { name: "Inicio", link: "/" },
+  { name: "Proyectos", link: "/work" },
+  { name: "Utilidades", link: "/uses" },
+  { name: "Fuente", link: "https://github.com/peter-R2-D2/peter-R2-D2.github.io" }
 ]

@@ -2,10 +2,10 @@
 
 ## 🚀 Color palettes
 
-"#6F4E37" Color palettes for bg and text
-"#A67B5B" Color palettes for text
-"#ECB176" Color palettes
-"#FED8B1" Color palettes
+* "#6F4E37" Color palettes for bg and text
+* "#A67B5B" Color palettes for text
+* "#ECB176" Color palettes
+* "#FED8B1" Color palettes
 
 ## 🧞 Commands
 
